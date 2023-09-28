@@ -1,0 +1,42 @@
+// variables
+$color: #e5345b;
+// end variable
+
+// global
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Kaisei Tokumin;
+}
+.main-btn{
+    background-color: white;
+    font-weight: light;
+}
+.main-btn:hover{
+    border-color: $color;
+    background-color: $color;
+    color: white;
+}
+.nav-link:hover{
+    color: $color;   
+}
+
+header {
+    background-image: url(./image/banner-img-1.jpg);
+    background-size: cover;
+}
+.carousel-inner h1{
+    font-size: 60px;
+}
+
+.heading h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: $color;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
