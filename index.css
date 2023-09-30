@@ -1,85 +1,133 @@
 :root {
- --main-color: #e5345b;
+    --main-color: #e5345b;
 }
+
 * {
     box-sizing: border-box;
 }
 
-.main-btn{
+.main-btn {
     background-color: white;
     font-weight: light;
 }
 
-.main-btn:hover{
+.main-btn:hover {
     border-color: var(--main-color);
     background-color: var(--main-color);
     color: white;
 }
-.nav-link:hover{
-    color: var(--main-color);   
+
+.nav-link:hover {
+    color: var(--main-color);
 }
 
 header {
     background-image: url(./image/banner-img-1.jpg);
     background-size: cover;
 }
-.carousel-inner h1{
+
+.carousel-inner h1 {
     font-size: 60px;
 }
 
-.heading h2::before{
+.heading h2::before {
     position: absolute;
     content: "";
     width: 4px;
     height: 50px;
-    background-color:  var(--main-color);
+    background-color: var(--main-color);
     left: -20px;
     top: 50%;
     transform: translateY(-50%);
 }
- .collection ul li{
-padding: 0.5rem 1rem;
+
+.collection ul li {
+    padding: 0.5rem 1rem;
     cursor: pointer;
     font-size: bold;
 }
-.collection ul li.active{
+
+.collection ul li.active {
     background-color: var(--main-color);
     color: white;
 }
+
 .collection ul li:not(.active) {
- border: 1px solid black;
- width: 149px;
- border-radius: 50%;
- margin: 5px;
- text-align: center;
+    border: 1px solid black;
+    width: 149px;
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
 
 }
+
 .collection ul li:not(.active):hover {
     background-color: var(--main-color);
     border-color: var(--main-color);
     color: white;
 }
+
 .collection .btn-primary {
     background-color: var(--main-color);
     border: transparent;
 }
-.collection .btn-primary:hover{
+
+.collection .btn-primary:hover {
     background-color: black;
     color: white;
     cursor: pointer;
 }
-.Discount{
+
+.Discount {
     background-image: url(./image/offer_img.jpg);
     background-size: cover;
 }
+
 .text {
     color: white;
     padding-top: 150px;
     padding-bottom: 150px;
 }
-.text p{
+
+.text p {
     font-size: 35px;
 }
+
 .text h1 {
     font-size: 75px;
+}
+.Subscription {
+    background-color: #eee;
+}
+.Subscription p{
+ max-width: 500px;
+}
+.input-group {
+    max-width: 500px;
+}
+.form-control{
+border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: none;
+    height: 50px;
+}
+.form-control:hover{
+    box-shadow: none;
+}
+.btn {
+    background-color: var(--main-color);
+    border-color: transparent;
+}
+.btn:hover{
+    background-color: var(--main-color);
+    border-color: transparent;   
+}
+.copyright div {
+    color: white;
+}
+.copyright span.name{
+    color: var(--main-color);
+}
+.links ul li:hover{
+    color: white;
 }

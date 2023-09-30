@@ -1,245 +1,351 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothes-Women-Store</title>
-    <!-- files -->
-    <link rel="stylesheet" href="./bootstrap files/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./index.css">
-    <!-- font file -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;800&family=Kaisei+Tokumin&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@100;300&family=Work+Sans:ital,wght@0,300;0,500;0,700;1,200&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
-    <!-- nav-bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container">
-            <img src="./image/shopping-bag-icon.png">
-            <span class="navbar-brand me-auto" href="#">ATTIRE</span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            COLLECTION
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            SPECIALS
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            BLOGS
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            ABOUT US
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            POPULAR
-                        </a>
-                    </li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clothes-Women-Store</title>
+        <!-- files -->
+        <link rel="stylesheet" href="./bootstrap files/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="./index.css">
+        <!-- font file -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;800&family=Kaisei+Tokumin&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@100;300&family=Work+Sans:ital,wght@0,300;0,500;0,700;1,200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- nav-bar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container">
+                <img src="./image/shopping-bag-icon.png">
+                <span class="navbar-brand me-auto" href="#">ATTIRE</span>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                COLLECTION
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                SPECIALS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                BLOGS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                ABOUT US
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                POPULAR
+                            </a>
+                        </li>
+                    </div>
+                </div>
+            </nav>
+            <!-- end of navbar -->
+            <!-- start header -->
+            <header
+                id="header"
+                class="vh-100 carousel slide"
+                data-bs-ride="carousel"
+                style="padding-top: 104px;"
+            >
+                <div class="container h-100 d-flex align-items-center carousel-inner">
+                    <div class="text-center carousel-item active">
+                        <h2 class="text-capitalize text-white">best collection</h2>
+                        <h1 class="text-uppercase py-2 fw-bold text-white">new arrivals</h1>
+                        <a class="btn rounded-pill main-btn" href="#">shop now</a>
+                    </div>
+                    <div class="text-center carousel-item">
+                        <h2 class="text-capitalize text-white">best price & offer</h2>
+                        <h1 class="text-uppercase py-2 fw-bold text-white">new season</h1>
+                        <a class="btn rounded-pill width: 100px main-btn" href="#">buy now</a>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header"
+                    data-bs-slide="prev"
+                >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header"
+                    data-bs-slide="next"
+                >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </header>
+            <!-- start collection -->
+            <div class="collection p-5">
+                <div class="container">
+                    <div class="heading text-center ">
+                        <h2 class="position-relative d-inline-block">New Collection</h2>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center p-3">
+                        <li class="active rounded-pill">ALL</li>
+                        <li class="rounded-pill">Best Seller</li>
+                        <li class="rounded-pill">featured</li>
+                        <li class="rounded-pill">New arrived</li>
+                    </ul>
+                    <div class="row gx-3 gy-2">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img src="./image/c_formal_gray_shirt.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Gray Shirt</h5>
+                                    <p class="card-text">$ 45.50</p>
+                                    <a href="#" class="btn btn-primary">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img src="./image/c_pant_girl.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Gray Shirt</h5>
+                                    <p class="card-text">$ 45.50</p>
+                                    <a href="#" class="btn btn-primary">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img src="./image/c_polo-shirt.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Gray Shirt</h5>
+                                    <p class="card-text">$ 45.50</p>
+                                    <a href="#" class="btn btn-primary">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img src="./image/c_shirt-girl.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Gray Shirt</h5>
+                                    <p class="card-text">$ 45.50</p>
+                                    <a href="#" class="btn btn-primary">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img src="./image/c_t-shirt_men.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Gray Shirt</h5>
+                                    <p class="card-text">$ 45.50</p>
+                                    <a href="#" class="btn btn-primary">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img src="./image/c_tunic-shirt_girl.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Gray Shirt</h5>
+                                    <p class="card-text">$ 45.50</p>
+                                    <a href="#" class="btn btn-primary">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img src="./image/c_undershirt.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Gray Shirt</h5>
+                                    <p class="card-text">$ 45.50</p>
+                                    <a href="#" class="btn btn-primary">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img src="./image/c_western-shirt.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Gray Shirt</h5>
+                                    <p class="card-text">$ 45.50</p>
+                                    <a href="#" class="btn btn-primary">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
-     <!-- end of navbar -->
-       <!-- start header -->
-       <header id = "header" class = "vh-100 carousel slide" data-bs-ride = "carousel" style = "padding-top: 104px;">
-        <div class = "container h-100 d-flex align-items-center carousel-inner">
-            <div class = "text-center carousel-item active">
-                <h2 class = "text-capitalize text-white">best collection</h2>
-                <h1 class = "text-uppercase py-2 fw-bold text-white">new arrivals</h1>
-                <a class="btn rounded-pill main-btn" href="#">shop now</a>
+            <!-- end collection -->
+            <!-- start Discount -->
+            <div class="Discount">
+                <div class="container">
+                    <div class="text text-start">
+                        <p>
+                            Discount Up To 40%
+                        </p>
+                        <h1 class="pb-3">
+                            Grand Sale Offer!
+                        </h1>
+                        <a class="btn rounded-pill width: 100px main-btn" href="#">buy now</a>
+                    </div>
+                </div>
             </div>
-            <div class = "text-center carousel-item">
-                <h2 class = "text-capitalize text-white">best price & offer</h2>
-                <h1 class = "text-uppercase py-2 fw-bold text-white">new season</h1>
-                <a class="btn rounded-pill width: 100px main-btn" href="#">buy now</a>
+            <!-- end Discount -->
+            <!-- start about team -->
+            <div class="collection p-5">
+                <div class="container">
+                    <div class="heading text-center ">
+                        <h2 class="position-relative d-inline-block">Our Latest Blog</h2>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="box bg-white">
+                                <img class="img-fluid" src="./image/blog_1.jpg" alt="">
+                                <h4 class="text-dark-50 pt-3 fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                                <p class="text-black-50">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                            aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque
+                            ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.
+                                </p>
+                                <p class="fw-bold">
+                                    Author:
+                                    <span class="text-black-50">John Doe</span>
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="box bg-white">
+                                <img class="img-fluid" src="./image/blog_2.jpg" alt="">
+                                <h4 class="text-dark-50 pt-3 fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                                <p class="text-black-50">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                            aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque
+                            ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.
+                                </p>
+                                <p class="fw-bold">
+                                    Author:
+                                    <span class="text-black-50">John Doe</span>
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="box bg-white">
+                                <img class="img-fluid" src="./image/blog_3.jpg" alt="">
+                                <h4 class="text-dark-50 pt-3 fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                                <p class="text-black-50">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                            aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque
+                            ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.
+                                </p>
+                                <p class="fw-bold">
+                                    Author:
+                                    <span class="text-black-50">John Doe</span>
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-      
-    </header>
-    <!-- start collection -->
-    <div class="collection p-5">
-        <div class="container">
-     <div class="heading text-center ">
-        <h2 class="position-relative d-inline-block">New Collection</h2>
-    </div>
-    <ul class="list-unstyled d-flex justify-content-center align-items-center p-3">
-        <li class="active rounded-pill">ALL</li>
-        <li class="rounded-pill">Best Seller</li>
-        <li class="rounded-pill">featured</li>
-        <li class="rounded-pill">New arrived</li>
-    </ul>
-    <div class="row gx-3 gy-2">
-        <div class="col-lg-3 col-md-6">
-            <div class="card">
-                <img src="./image/c_formal_gray_shirt.png" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Gray Shirt</h5>
-                  <p class="card-text">$ 45.50</p>
-                  <a href="#" class="btn btn-primary">buy</a>
+            <!-- end about team -->
+            <!--start Subscription -->
+            <div class="Subscription">
+                <div class="container">
+                <div class="heading text-center pt-5 ">
+                    <h2 class="position-relative d-inline-block">Newsletter Subscription
+                    </h2>
                 </div>
-              </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="card">
-                <img src="./image/c_pant_girl.png" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Gray Shirt</h5>
-                  <p class="card-text">$ 45.50</p>
-                  <a href="#" class="btn btn-primary">buy</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="card">
-                <img src="./image/c_polo-shirt.png" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Gray Shirt</h5>
-                  <p class="card-text">$ 45.50</p>
-                  <a href="#" class="btn btn-primary">buy</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="card">
-                <img src="./image/c_shirt-girl.png" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Gray Shirt</h5>
-                  <p class="card-text">$ 45.50</p>
-                  <a href="#" class="btn btn-primary">buy</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="card">
-                <img src="./image/c_t-shirt_men.png" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Gray Shirt</h5>
-                  <p class="card-text">$ 45.50</p>
-                  <a href="#" class="btn btn-primary">buy</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="card">
-                <img src="./image/c_tunic-shirt_girl.png" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Gray Shirt</h5>
-                  <p class="card-text">$ 45.50</p>
-                  <a href="#" class="btn btn-primary">buy</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="card">
-                <img src="./image/c_undershirt.png" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Gray Shirt</h5>
-                  <p class="card-text">$ 45.50</p>
-                  <a href="#" class="btn btn-primary">buy</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="card">
-                <img src="./image/c_western-shirt.png" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Gray Shirt</h5>
-                  <p class="card-text">$ 45.50</p>
-                  <a href="#" class="btn btn-primary">buy</a>
-                </div>
-              </div>
-        </div>
-    </div>
-     </div>
-    </div>
- <!-- end collection -->
- <!-- start Discount -->
- <div class="Discount">
-    <div class="container">
-        <div class="text text-start">
-            <p>
-                Discount Up To 40%
-            </p>
-            <h1 class="pb-3">
-                Grand Sale Offer!
-            </h1>
-            <a class="btn rounded-pill width: 100px main-btn" href="#">buy now</a>
-        </div>
-    </div>
- </div>
-  <!-- end Discount -->
-  <!-- start about team -->
-  <div class="collection p-5">
-    <div class="container">
- <div class="heading text-center ">
-    <h2 class="position-relative d-inline-block">Our Latest Blog</h2>
-</div>
-<div class="row pt-5">
-    <div class="col-lg-4 col-md-6">
-        <div class="box bg-white">
-            <img class="img-fluid" src="./image/blog_1.jpg" alt="">
-            <h4 class="text-dark-50 pt-3 fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
-           <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
-           <p class="fw-bold">Author:<span class="text-black-50">John Doe</span></p>
-           <a href="#" class="btn btn-primary">Read More</a>
-        </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <div class="box bg-white">
-                <img class="img-fluid" src="./image/blog_2.jpg" alt="">
-                <h4 class="text-dark-50 pt-3 fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
-               <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
-               <p class="fw-bold">Author:<span class="text-black-50">John Doe</span></p>
-               <a href="#" class="btn btn-primary">Read More</a>
+                <p class="text-center p-3 m-auto text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem officia accusantium maiores quisquam dolorum?
+                </p>
+                <div class="input-group m-auto p-5">
+                    <input type="text" class="form-control" placeholder="Enter Your Email...">
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                  </div>
             </div>
-       
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="box bg-white">
-                    <img class="img-fluid" src="./image/blog_3.jpg" alt="">
-                    <h4 class="text-dark-50 pt-3 fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
-                   <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
-                   <p class="fw-bold">Author:<span class="text-black-50">John Doe</span></p>
-                   <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-           
-                </div>
-
-    </div>
-    
-</div>
-</div>
-  <!-- end about team -->
-</body>
-
-</html>
+            <!--end Subscription -->
+            <!-- start footer -->
+            <div class="footer pt-5 pb-5 text-white-50 bg-black text-center text-md-start">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="info mb-5">
+                               <h6 class="text-light">ATTIRE</h6>
+                                <p class="mb-5">
+                                    Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur
+                                    sed,
+                                    convallis at tellus.
+                                </p>
+                                <div class="copyright">
+                                    Created By
+                                    <span>Graphberry</span>
+                                    <div>
+                                        © 2023 -
+                                        <span class="name">Karema Hamdy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2">
+                            <div class="links">
+                                <h5 class="text-light">Links</h5>
+                                <ul class="list-unstyled lh-lg">
+                                    <li>Home</li>
+                                    <li> COLLECTION</li>
+                                    <li>BLOGS</li>
+                                    <li>ABOUT US</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2">
+                            <div class="links">
+                                <h5 class="text-light">About Us</h5>
+                                <ul class="list-unstyled lh-2">
+                                    <li>Sign In</li>
+                                    <li>Register</li>
+                                    <li>About Us</li>
+                                    <li>Blog</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="contact">
+                                <h5 class="text-light">Contact Us</h5>
+                                <p class="lh-lg mt-3 mb-5">Get in touch with us via mail phone.We are waiting for your call or message</p>
+                                <a class="btn rounded-pill main-btn w-100 text-light" href="#">karemahamdy51@gmail.com</a>
+                            
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+            </div>
+             <!-- end footer -->
+        </body>
+    </html>
