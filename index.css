@@ -1,0 +1,85 @@
+:root {
+ --main-color: #e5345b;
+}
+* {
+    box-sizing: border-box;
+}
+
+.main-btn{
+    background-color: white;
+    font-weight: light;
+}
+
+.main-btn:hover{
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+    color: white;
+}
+.nav-link:hover{
+    color: var(--main-color);   
+}
+
+header {
+    background-image: url(./image/banner-img-1.jpg);
+    background-size: cover;
+}
+.carousel-inner h1{
+    font-size: 60px;
+}
+
+.heading h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color:  var(--main-color);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ .collection ul li{
+padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: bold;
+}
+.collection ul li.active{
+    background-color: var(--main-color);
+    color: white;
+}
+.collection ul li:not(.active) {
+ border: 1px solid black;
+ width: 149px;
+ border-radius: 50%;
+ margin: 5px;
+ text-align: center;
+
+}
+.collection ul li:not(.active):hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    color: white;
+}
+.collection .btn-primary {
+    background-color: var(--main-color);
+    border: transparent;
+}
+.collection .btn-primary:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.Discount{
+    background-image: url(./image/offer_img.jpg);
+    background-size: cover;
+}
+.text {
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.text p{
+    font-size: 35px;
+}
+.text h1 {
+    font-size: 75px;
+}
